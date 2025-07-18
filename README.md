@@ -52,14 +52,15 @@ The backend is implemented using **PHP** and **MySQL**, supporting persistent st
 
 ## 📁 Project Structure
 
-├── index.html # Main landing page
-├── NewFile2.html # Login or authentication page
-├── sitlogo.png # Institute logo
-├── adminblock.png # Image slideshow assets
-├── adminblockf.jpg
-├── frontgate.jpg
-├── style.css # Embedded styling
-├── script.js # Embedded slideshow logic
+├── index.html          # Main landing page  
+├── NewFile2.html       # Login or authentication page  
+├── sitlogo.png         # Institute logo  
+├── adminblock.png      # Image slideshow asset  
+├── adminblockf.jpg     # Image slideshow asset  
+├── frontgate.jpg       # Image slideshow asset  
+├── style.css           # Embedded styling (within index.html if separate file not used)  
+├── script.js           # Slideshow JavaScript logic (inline or in external file)  
+
 
 
 ---
