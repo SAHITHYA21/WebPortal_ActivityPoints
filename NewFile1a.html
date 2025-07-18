@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>miniproject</title>
+<style>
+.center{
+display:block;
+margin-left:auto;
+margin-right:auto;
+font-family:serif;
+}
+#customers {
+  
+  border-collapse: collapse;
+  width: 100%;
+  font-family:sans-serif;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  font-family:sans-serif;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: blue;
+  color: white;
+  font-family:sans-serif;
+}
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+ 
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+<script>
+var simsubscreennum=1;
+var temp=1;
+</script>
+</head>
+
+<body>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="adminblock.png" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="adminblockf.jpg" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="frontgate.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<div id="div1">
+<p align="right" style="font-family:sans-serif;">You are not logged in?
+<a href="NewFile2.html" style="font-family:sans-serif;color:blue;">login</a>
+<br><img src="sitlogo.png" class="center" alt="noimage" >
+<h1 align="center" style="background-color:blue;height:60px;font-size:50px;color:white;font-family:sans-serif;">SIDDAGANGA INSTITUTE OF TECHNOLOGY</h1>
+<h2 align="center" style="font-size:30px;font-family:sans-serif;"><u>EARNING OF ACTIVITY POINTS FOR AWARD OF DEGREE FOR STUDENTS ADMITTED UNDER 2018 REGULATIONS</u></h2>
+<h3 style="font-size:25px;font-family:sans-serif;">Preamble:</h3>
+<p style="font-size:18px;font-family:sans-serif;">Apart from technical knowledge and skills, to be successful as professionals, students should have excellent soft skills, leadership qualities and team spirit.
+ They should have entrepreneurial capabilities and social commitment. In oder to match these multifarious requirement,
+ AICTE has created a unique mechanism of awarding Activity Points over and above the academic grades.<br><br>
+ <ol style="font-family:sans-serif;"><li>Every day college regular student submitted to the 4 years degree programme and every student entering 4 years degree programme through lateral entry, shall earn 100 and 75 activity points respectively for
+ the award of degree through AICTE Activity Point Programme. Students transferred from other Universities to fifth semester are required to earn 50 Activity Points from the year of entry to VTU.
+ This is applicable to B.E/B.Tech students taking admission starting from 2018-19: regular, 2019-20: lateral entry admission and those joining 5<sup>th</sup> semester in 2020-21.</p>
+ <table id="customers">
+  <tr>
+    <th><b>Sl.No.</b></th>
+    <th><b>Student Category</b></th>
+    <th><b>Activity points by AICTE</b></th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Day College regular student admitted to the 4 years Degree programe</td>
+    <td>100</td>
+  </tr>
+  <tr>z
+    <td>2</td>
+    <td>Student entering 4 years Degree programme through lateral entry</td>
+    <td>75</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Students transferred from other Universities to fifth semester</td>
+    <td>50</td>
+  </tr>
+  
+</table>
+</li>
+<br><br>
+<li>The Activity Points earned shall be reflected on the student's eighth semester Grade card.</li>
+<br><br>
+<li>The activities can be spread over the years (duration of the programme), anytime during the
+ semester weekends and holidays, as per the interest and convenience of the student from the year of entry to the programme. However, minimum hours specified must be satisfied.</li>
+<br><br><li>Activity Points (non-credit) have no effect on SGPA/CGPA and shall not be considered for vertical progression.</li>
+<br><br><li>In case student's fil to earn the prescribed Activity Points, Eighth semester Grade Card shall be issued only after earning the required 
+Activity Points. Students shall be admitted for the award of degree only after the release of the Eighth semester Grade card.</li>
+<br><br><li><b>AICTE Activity Point Programme</b> (Activiy Summary Sheet) For more details refer to Chapter 6, AICTE Activiy Point Programme, Model Internship Guidelines.	 </li>
+</div>
+
+
+<script>
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</body>
+</html>

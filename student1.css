@@ -1,0 +1,30 @@
+@charset "ISO-8859-1";
+#customers {
+  
+  border-collapse: collapse;
+  width: 100%;
+  font-family:sans-serif;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  font-family:sans-serif;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: blue;
+  color: white;
+  font-family:sans-serif;
+}
+form.form1 { 
+    padding-top: 0px;
+	font-family:sans-serif;
+ }
